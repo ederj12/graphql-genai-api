@@ -1,0 +1,38 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Architecture Development Rules
+
+System Design Principles
+======================
+
+- Define a clear architectural pattern
+- Design systems with clear separation of concerns
+- Promote loose coupling and high cohesion
+- Design for scalability and future growth
+- Design for resilience and fault tolerance
+- Prioritize security at all levels
+- Ensure maintainability and ease of evolution
+- Document the architecture clearly
+
+Component Communication
+=====================
+
+- Define clear communication patterns
+- Choose appropriate communication technologies
+- Implement robust error handling
+
+Data Management
+=============
+
+- Choose appropriate data storage solutions
+- Design efficient data models and schemas
+- Implement data validation and integrity checks
+- Consider data security and privacy requirements
+
+@typescript.mdc
+@nodejs.mdc
+@graphql.mdc
+@performance.mdc

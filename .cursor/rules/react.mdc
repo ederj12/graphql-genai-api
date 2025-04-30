@@ -1,0 +1,56 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+React Development Rules
+
+Code Style and Structure
+======================
+
+- Write functional React components using arrow functions
+- Utilize React Hooks (`useState`, `useEffect`, `useContext`, etc.)
+- Follow consistent code formatting (e.g., using Prettier)
+- Utilize ESLint with React-specific rules
+- Organize components into logical directories based on features
+- Use descriptive names for components, variables, and props
+- Pass data down using props and handle state updates appropriately
+- Implement proper error handling within components
+
+Component Design and Usage
+========================
+
+- Design reusable and composable components with well-defined props
+- Follow the single responsibility principle for components
+- Use keys effectively when rendering lists of elements
+- Implement controlled components for form elements
+- Lift state up to the lowest common ancestor when needed
+- Utilize context API or state management libraries appropriately
+- Optimize component rendering using `React.memo`
+
+Asynchronous Operations
+=====================
+
+- Use `useEffect` Hook for handling side effects
+- Clean up side effects within the `useEffect` cleanup function
+- Handle asynchronous data fetching and loading states
+
+UI and User Experience
+====================
+
+- Follow established UI/UX best practices and design principles
+- Ensure components are responsive and adapt to screen sizes
+- Provide clear and informative feedback to users
+- Implement proper accessibility (ARIA attributes, keyboard navigation)
+
+React Performance
+===============
+
+- Minimize unnecessary re-renders using proper techniques
+- Optimize component structure and avoid deep nesting
+- Implement code splitting to reduce bundle size
+- Use lazy loading for components and assets
+- Optimize images and other assets
+
+@typescript.mdc
+@performance.mdc

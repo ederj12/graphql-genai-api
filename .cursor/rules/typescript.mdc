@@ -1,0 +1,90 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+TypeScript Development Rules
+
+Basic Principles
+==============
+
+- Use English for all code and documentation
+- Always declare types for variables and functions
+- Use JSDoc for public classes and methods
+- Maintain single responsibility in functions
+- Follow one export per file principle
+
+Nomenclature
+===========
+
+- Use PascalCase for classes and types
+- Use camelCase for variables and functions
+- Use kebab-case for file names
+- Use UPPERCASE for constants
+- Start functions with verbs
+- Use descriptive boolean names (isLoading, hasError)
+- Avoid abbreviations except for standards (API, URL)
+
+Type System Usage
+===============
+
+- Leverage interfaces for contracts
+- Use type aliases for complex types
+- Utilize enums for fixed sets
+- Employ generics for reusability
+- Use utility types (Partial, Required, Readonly)
+- Apply strict null checks
+- Use type inference appropriately
+- Define custom types for complex data
+
+Functions
+========
+
+- Keep functions short (< 20 lines)
+- Use descriptive names with verbs
+- Implement early returns
+- Use higher-order functions
+- Apply default parameters
+- Use objects for multiple parameters
+- Maintain single abstraction level
+
+Data Handling
+===========
+
+- Use composite types over primitives
+- Implement data validation in classes
+- Prefer immutability
+- Use readonly for constants
+- Use as const for literals
+
+Classes
+======
+
+- Follow SOLID principles
+- Prefer composition over inheritance
+- Define clear interfaces
+- Keep classes small and focused
+- Limit public methods (< 10)
+- Limit properties (< 10)
+
+Error Handling
+============
+
+- Use exceptions for unexpected errors
+- Implement proper error catching
+- Add context to caught errors
+- Use global handlers when appropriate
+
+Testing
+=======
+
+- Follow Arrange-Act-Assert
+- Use clear test variable names
+- Write unit tests for public functions
+- Implement acceptance tests
+- Follow Given-When-Then convention
+
+@react.mdc
+@graphql.mdc
+@nodejs.mdc
+@performance.mdc

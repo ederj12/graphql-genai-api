@@ -1,0 +1,57 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Cursor Rules Best Practices
+
+Rule Structure and Organization
+
+- Store all rules in `.cursor/rules` directory
+- Use `.mdc` extension for rule files
+- Include metadata header with description, globs, and alwaysApply flag
+- Organize rules by domain (e.g., typescript.mdc, react.mdc, graphql.mdc)
+- Keep rules focused and specific to their domain
+
+Rule Content Guidelines
+
+- Write clear, concise, and actionable rules
+- Use bullet points for readability
+- Include examples where helpful
+- Reference external files using @filename syntax
+- Group related rules under clear headings
+- Use consistent formatting across all rules
+
+Rule Types and Application
+
+- Use appropriate rule types:
+  * Always: For critical, always-applicable rules
+  * Auto Attached: For rules tied to specific file patterns
+  * Agent Requested: For optional rules with clear descriptions
+  * Manual: For rules that need explicit invocation
+- Specify glob patterns carefully to avoid over-application
+- Use alwaysApply flag judiciously
+
+Maintenance and Updates
+
+- Keep rules up to date with project changes
+- Review and prune outdated rules regularly
+- Document rule changes in version control
+- Test rules after updates
+- Ensure rules don't conflict with each other
+
+Rule Creation Process
+
+1. Identify the need for a new rule
+2. Determine the appropriate rule type
+3. Write clear, actionable content
+4. Add necessary metadata
+5. Test the rule's application
+6. Document any dependencies or references
+
+@typescript.mdc
+@react.mdc
+@graphql.mdc
+@nodejs.mdc
+@architecture.mdc
+@performance.mdc

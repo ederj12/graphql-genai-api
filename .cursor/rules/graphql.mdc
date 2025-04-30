@@ -1,0 +1,65 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+GraphQL Development Rules
+
+Schema Design and Definition
+==========================
+
+- Design clear, concise, and semantic GraphQL schemas using SDL
+- Use PascalCase for type names (e.g., User, Product)
+- Use camelCase for field names and arguments (e.g., firstName, productId)
+- Provide clear descriptions for types, fields, and arguments
+- Establish explicit relationships between types
+- Favor non-nullable fields where appropriate
+- Utilize enums for fixed sets of possible values
+- Implement interfaces for common field sets
+- Use unions for fields with multiple possible types
+- Version schemas carefully
+
+Query and Mutation Design
+=======================
+
+- Design queries specific to client data requirements
+- Implement efficient filtering, sorting, and pagination
+- Structure mutations to clearly indicate input and changes
+- Follow consistent naming conventions for mutations
+- Design mutations to return sufficient outcome information
+
+Resolver Implementation
+=====================
+
+- Write efficient and well-organized resolvers
+- Separate data fetching logic from core resolver logic
+- Implement proper error handling within resolvers
+- Utilize asynchronous programming for data fetching
+- Implement data loaders to solve N+1 problem
+- Ensure resolvers respect authorization rules
+- Optimize database queries and API calls
+- Cache frequently accessed data
+
+Security
+=======
+
+- Implement robust authentication and authorization
+- Validate all user-provided input
+- Be mindful of security vulnerabilities
+- Implement rate limiting
+- Sanitize user-provided data
+- Protect against denial-of-service attacks
+
+Performance Optimization
+=====================
+
+- Analyze query performance using appropriate tools
+- Optimize database queries based on access patterns
+- Implement caching at various levels
+- Utilize persisted queries
+- Consider query batching
+- Monitor performance metrics
+
+@typescript.mdc
+@nodejs.mdc
+@performance.mdc

@@ -1,0 +1,22 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Performance Development Rules
+
+General Optimization
+==================
+
+- Identify and address performance bottlenecks
+- Optimize database queries and data access
+- Implement caching strategies at various levels
+- Minimize network request and response sizes
+- Optimize front-end performance
+- Avoid blocking operations
+
+@typescript.mdc
+@react.mdc
+@nodejs.mdc
+@graphql.mdc
+@architecture.mdc

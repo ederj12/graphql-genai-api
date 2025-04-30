@@ -1,0 +1,61 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Node.js and Express.js Development Rules
+Package Manager
+==============
+- Always use yarn as Package Manager
+- Install latest versions
+- Avoid deprecated packages/endoflife
+- Check that all packages are compatible
+- Install packages
+- Check and fix erros on console
+
+Code Style and Structure
+======================
+
+- Follow Node.js and Express.js best practices
+- Organize code into logical layers (controllers, services, models, routes)
+- Use descriptive names for variables, functions, and modules
+- Implement consistent error handling
+- Utilize logging libraries for comprehensive logging
+- Configure environment variables appropriately
+- Implement proper input validation
+
+Express.js Specifics
+==================
+
+- Define routes in dedicated route files
+- Utilize middleware effectively
+- Implement RESTful API design principles
+- Handle HTTP methods appropriately
+- Use status codes correctly
+- Implement proper request/response handling
+- Secure API endpoints
+- Implement rate limiting
+- Sanitize user input
+
+Node.js Specifics
+===============
+
+- Follow asynchronous programming best practices
+- Manage dependencies effectively
+- Handle process signals gracefully
+- Utilize Node.js core modules efficiently
+- Avoid blocking operations
+- Implement clustering for production
+
+Node.js Performance
+=================
+
+- Write efficient and non-blocking code
+- Utilize asynchronous operations effectively
+- Optimize garbage collection
+- Use appropriate data structures
+- Consider worker threads for CPU-bound tasks
+
+@typescript.mdc
+@performance.mdc
+@architecture.mdc
