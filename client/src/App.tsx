@@ -26,7 +26,7 @@ function App() {
     setSelectedLocation(location);
     setShowMap(true);
     if (map) {
-      map.panTo({ lat: location.lat, lng: location.lng });
+      map.setCenter({ lat: location.lat, lng: location.lng });
       map.setZoom(12);
     }
   };
@@ -48,7 +48,11 @@ function App() {
 
   const handleMapLoad = useCallback((map: google.maps.Map) => {
     setMap(map);
-  }, []);
+    if (selectedLocation) {
+      map.setCenter({ lat: selectedLocation.lat, lng: selectedLocation.lng });
+      map.setZoom(12);
+    }
+  }, [selectedLocation]);
 
   return (
     <ThemeProvider theme={theme}>
@@ -70,6 +74,7 @@ function App() {
                 <Grid item xs={12} md={7}>
                   <LocationMap
                     show={showMap}
+                    selectedLocation={selectedLocation}
                     onMapClick={handleMapClick}
                     onMapLoad={handleMapLoad}
                   />
