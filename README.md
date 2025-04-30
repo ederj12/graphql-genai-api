@@ -2,6 +2,8 @@
 
 A modern web application that provides detailed insights about locations using Google Maps, GraphQL, and AI-powered analysis.
 
+![LocationInsights](https://github.com/user-attachments/assets/10b96535-59e9-49f1-8381-cb0039800060)
+
 ## Features
 
 - 🔍 Location search with Google Places Autocomplete
